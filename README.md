@@ -49,14 +49,14 @@ npx webpack
 ---
 npm init #生成package.json
 
-# 配置启动脚本
+## 配置启动脚本
 "scripts": {
     "bundle": "webpack"    
 }
-# 运行
+## 运行
 npm run bundle
 
-# 总结
+## 总结
 webpack index.js
 npx webpack index.js
 npm run bundle -> webpack
