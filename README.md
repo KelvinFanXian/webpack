@@ -57,7 +57,8 @@ npm init #生成package.json
 npm run bundle
 
 ### 总结
+```
 webpack index.js
 npx webpack index.js
 npm run bundle -> webpack
-
+```
