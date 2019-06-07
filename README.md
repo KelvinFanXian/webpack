@@ -34,4 +34,30 @@ npx wbpack -v #4.16.5
 ```
 
 ## 2-4 使用webpack的配置文件
+```
+const path = require('path');
+
+module.exports = {
+    entry: './index.js',
+    output: {
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'bundle')
+    }
+}
+```
+npx webpack
+---
+npm init #生成package.json
+
+# 配置启动脚本
+"scripts": {
+    "bundle": "webpack"    
+}
+# 运行
+npm run bundle
+
+# 总结
+webpack index.js
+npx webpack index.js
+npm run bundle -> webpack
 
