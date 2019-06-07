@@ -32,3 +32,6 @@ npm webpack info #webpack版本列表
 npm install webpack@4.16.5 webpack-cli -D
 npx wbpack -v #4.16.5
 ```
+
+## 2-4 使用webpack的配置文件
+
