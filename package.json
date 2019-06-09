@@ -7,9 +7,11 @@
     "webpack-cli": "^3.3.2",
     "webpack": "^4.33.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "file-loader": "^4.0.0"
+  },
   "scripts": {
-      "bundle": "webpack"
+    "bundle": "webpack"
   },
   "repository": {
     "type": "git",

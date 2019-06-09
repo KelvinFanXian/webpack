@@ -100,3 +100,31 @@ module.exports = {
 ```
 mode 为`development`时，生成的文件不会被压缩
 
+
+## 3-1 什么是loader
+
+### for load jpg @see module node
+```
+module.exports = {
+    entry: {
+        main: './index.js'   
+    },
+    module: {
+        rules:[{
+            test: /\.jpg$/,
+            use: {
+                loader: 'file-loader'
+            }
+        }]    
+    },
+    output: {
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'bundle')
+    }
+}
+
+```
+run cmd
+> npm install file-loader -D
+
+### 打包方案
