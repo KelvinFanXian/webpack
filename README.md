@@ -64,6 +64,7 @@ npm run bundle -> webpack
 ```
 
 ## 2-5 浅析Webpack 打包输出内容
+```
 module.exports = {
     entry: './index.js',
     output: {
@@ -71,7 +72,9 @@ module.exports = {
         path: path.resolve(__dirname, 'bundle')
     }
 }
+```
 <=>
+```
 module.exports = {
     entry: {
         main: './index.js'   
@@ -81,9 +84,9 @@ module.exports = {
         path: path.resolve(__dirname, 'bundle')
     }
 }
-
+```
 ### 消除报错，未指定模式
-
+```
 module.exports = {
     mode: 'prodution',
     entry: {
@@ -94,6 +97,6 @@ module.exports = {
         path: path.resolve(__dirname, 'bundle')
     }
 }
-
+```
 mode 为`development`时，生成的文件不会被压缩
 
