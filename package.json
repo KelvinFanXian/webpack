@@ -1,0 +1,24 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "``` npm init npm i webpack-cli -S-D npm i webpack -S npx webpack index.js ```",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.2",
+    "webpack": "^4.33.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "bundle": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinFanXian/webpack-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelvinFanXian/webpack-study/issues"
+  },
+  "homepage": "https://github.com/KelvinFanXian/webpack-study#readme"
+}
